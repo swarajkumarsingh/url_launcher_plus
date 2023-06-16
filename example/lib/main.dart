@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
       body: SafeArea(
           child: Center(
         child: ElevatedButton.icon(
-          onPressed: () {},
+          onPressed: () => navigate(context),
           label: const Text("Launch Url"),
           icon: const Icon(Icons.ads_click),
         ),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-import 'package:webview_flutter_android/webview_flutter_android.dart';
 
 import 'messages.dart';
 
@@ -88,12 +87,6 @@ class _UrlLauncherController {
         },
       )
       ..loadRequest(Uri.parse(widget.launchUrl));
-
-    if (controller.platform is AndroidWebViewController) {
-      AndroidWebViewController.enableDebugging(true);
-      (controller.platform as AndroidWebViewController)
-          .setMediaPlaybackRequiresUserGesture(false);
-    }
     return controller;
   }
 }

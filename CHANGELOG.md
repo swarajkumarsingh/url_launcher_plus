@@ -5,3 +5,7 @@
 ## 1.0.0
 
 - Implemented url launcher feature
+
+## 1.1.0
+
+- Updated resources

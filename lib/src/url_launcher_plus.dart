@@ -8,7 +8,7 @@ class UrlLauncher extends StatefulWidget {
   const UrlLauncher({
     super.key,
     required this.launchUrl,
-    this.blockedUrls = const [],
+    this.blockUrls = const [],
     this.onPageFinished,
     this.onPageStarted,
     this.onProgress,
@@ -26,7 +26,7 @@ class UrlLauncher extends StatefulWidget {
   final Color? backgroundColor;
   final Color? iconColor;
   final VoidCallback? onRefresh;
-  final List<String> blockedUrls;
+  final List<String> blockUrls;
 
   final VoidCallback? onProgress;
   final VoidCallback? onUrlChange;
@@ -45,6 +45,10 @@ class _UrlLauncherState extends State<UrlLauncher> {
   @override
   void initState() {
     super.initState();
+    init();
+  }
+
+  init() {
     final controller = urlLauncherController.init(context, widget);
     setState(() {
       _controller = controller;
