@@ -1,6 +1,6 @@
 name: url_launcher_plus
 description: Customizable url launcher with AppBar for navigation and also a refresh button available
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/swarajkumarsingh/url_launcher_plus
 
 environment:
@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   webview_flutter: ^4.2.2
+  webview_flutter_android: ^3.8.0
 
 dev_dependencies:
   flutter_test:

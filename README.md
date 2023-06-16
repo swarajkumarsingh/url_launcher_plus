@@ -31,3 +31,9 @@ import 'package:flutter_gearbox/url_launcher_plus.dart';
 If you find a bug or want a feature, but don't know how to fix/implement it, please fill an issue. <br>
 <br>
 If you fixed a bug or implemented a feature, please send a pull request.
+
+│ android {                                                                                     │
+│   defaultConfig {                                                                             │
+│     minSdkVersion 19                                                                          │
+│   }                                                                                           │
+│ } 
