@@ -1,6 +1,6 @@
 name: url_launcher_plus
 description: Customizable url launcher plus with AppBar for navigation and also a refresh button available
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/swarajkumarsingh/url_launcher_plus
 
 environment:

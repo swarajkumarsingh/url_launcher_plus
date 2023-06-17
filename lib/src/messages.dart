@@ -3,9 +3,9 @@ import 'package:flutter/services.dart';
 final message = _Message();
 
 class _Message {
-  String packageError = "PACKAGE_NAVIGATION_ERROR";
+  String packageError = "URL_LAUNCHER_ERROR";
 
-  void throwError({Object? e, StackTrace? stackTrace, String details = "" }) {
+  void throwError({Object? e, StackTrace? stackTrace, String details = ""}) {
     throw PlatformException(
       code: packageError,
       details: details,

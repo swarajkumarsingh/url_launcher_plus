@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher_plus/src/url_launcher_controller.dart';
+import 'url_launcher_controller.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 import 'loader.dart';
